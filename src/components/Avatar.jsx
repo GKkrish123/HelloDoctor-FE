@@ -22,6 +22,7 @@ export default function Avatar(props) {
 
   React.useEffect(() => {
     speakResponse("Hi I'm Dr. Gokul's assistant. How can I help you?");
+    // eslint-disable-next-line
   }, []);
 
   const handleAudioData = async (event) => {
